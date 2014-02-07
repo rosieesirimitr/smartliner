@@ -1,0 +1,131 @@
+@import url(http://fonts.googleapis.com/css?family=Antic+Slab);
+
+html,body {
+  height:100%;
+}
+
+h1 {
+  font-family: 'Antic Slab', serif;
+  font-size:80px;
+  color:#35208A;
+}
+
+h2 {
+  font-family: 'Antic Slab', serif;
+  font-size: 60px;
+  color: #35208A;
+}
+
+.lead {
+  color:#6CBDF0;
+  font-size: 40px;
+}
+
+
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  min-height:100%;
+  background-color:#110022;
+  color:#eee;
+  overflow:hidden;
+}
+
+.container {
+  padding: 2%;
+}
+
+.container-full a {
+  color:#efefef;
+  text-decoration:none;}
+
+
+.v-center {
+  margin-top:7%;
+}
+
+button {
+  width: 200px;
+  height: 75px;
+}
+
+.form {
+  font-size: 20px;
+  justify: left;
+}
+
+.login {
+  width: 500px;
+  height: auto;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.wrapper img{
+-webkit-filter: brightness(100%);
+ -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.wrapper img:hover {
+   -webkit-filter: brightness(100%);
+}
+
+.wrapper .text {
+position:relative;
+bottom:35px;
+left:0px;
+visibility:hidden;
+}
+
+.wrapper:hover .text {
+visibility:visible;
+font-size:20px;
+color:white;
+
+}
+
+
+.wrapper2 .text2 {
+position:relative;
+bottom:35px;
+left:0px;
+visibility:hidden;
+}
+
+.wrapper2:hover .text2 {
+visibility:visible;
+font-size:20px;
+color:white;
+
+}
+
+.wrapper3 .text3 {
+position:relative;
+bottom:35px;
+left:0px;
+visibility:hidden;
+}
+
+.wrapper3:hover .text3 {
+visibility:visible;
+font-size:20px;
+color:white;
+
+}
+
+.wrapper{
+display:inline-block;
+}
+
+.wrapper2{
+display:inline-block;
+}
+
+.wrapper3{
+display:inline-block;
+}
